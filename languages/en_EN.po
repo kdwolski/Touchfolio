@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: touchfolio\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-12 16:08+0300\n"
-"PO-Revision-Date: 2012-05-12 18:46+0300\n"
-"Last-Translator: Dmitry Semenov <diiiimaaaa@gmail.com>\n"
+"POT-Creation-Date: 2013-02-26 20:00-0500\n"
+"PO-Revision-Date: 2013-02-26 20:00-0500\n"
+"Last-Translator: Kevin D. Wolski <kwolski@ptc.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-Basepath: /Users/kwolski/Sites/archive.kdwolski.com/wp-content/themes/Touchfolio\n"
 "X-Poedit-Language: English\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -119,83 +119,83 @@ msgstr ""
 msgid "Album images not found."
 msgstr ""
 
-#: functions.php:174
+#: functions.php:159
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:178
+#: functions.php:163
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:175
 msgid "Regular Page Sidebar"
 msgstr ""
 
-#: functions.php:235
-msgid "Next project"
+#: functions.php:210
+msgid "Next set"
 msgstr ""
 
-#: functions.php:236
-msgid "Prev project"
+#: functions.php:211
+msgid "Prev set"
 msgstr ""
 
-#: functions.php:237
+#: functions.php:212
 msgid "close info"
 msgstr ""
 
-#: functions.php:238
+#: functions.php:213
 msgid "Click and drag in any direction to browse."
 msgstr ""
 
-#: functions.php:239
+#: functions.php:214
 msgid "Next image"
 msgstr ""
 
-#: functions.php:240
+#: functions.php:215
 msgid "close video"
 msgstr ""
 
-#: functions.php:241
+#: functions.php:216
 msgid "Prev image"
 msgstr ""
 
-#: functions.php:242
+#: functions.php:217
 msgid "&larr; back to list"
 msgstr ""
 
-#: functions.php:243
+#: functions.php:218
 msgid "Swipe up"
 msgstr ""
 
-#: functions.php:244
+#: functions.php:219
 msgid "Swipe down"
 msgstr ""
 
-#: functions.php:248
+#: functions.php:231
 msgid "&mdash; Select page &mdash;"
 msgstr ""
 
-#: functions.php:249
+#: functions.php:232
 msgid "&mdash;"
 msgstr ""
 
-#: functions.php:250
+#: functions.php:233
 msgid "menu"
 msgstr ""
 
-#: functions.php:297
+#: functions.php:280
 msgid "Add to album"
 msgstr ""
 
-#: functions.php:298
+#: functions.php:281
 msgid "Adding..."
 msgstr ""
 
-#: functions.php:299
+#: functions.php:282
 msgid "Inserting error. Please try again."
 msgstr ""
 
-#: functions.php:300
+#: functions.php:283
 msgid "Added"
 msgstr ""
 
@@ -266,40 +266,61 @@ msgstr ""
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
+#: update-notifier.php:71
+msgid "Touchfolio Theme Update"
+msgstr ""
+
+#: update-notifier.php:72
+msgid "<strong>There is a new version of Touchfolio theme available.</strong> Visit <a style=\"text-decoration:underline;\" href=\"http://dimsemenov.com/themes/touchfolio/changelog.html\">changelog page</a> to see what's new and how to update."
+msgstr ""
+
+#: update-notifier.php:75
+msgid "<strong>Please note:</strong> make a backup of Touchfolio theme inside your WordPress installation folder <strong>"
+msgstr ""
+
 #: admin/admin-functions.php:27
 msgid "Thank you for using <a href=\"http://dimsemenov.com/themes/touchfolio/\">Touchfolio</a> by <a href=\"http://dimsemenov.com/\">Dmitry Semenov</a>. <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">Leave feedback</a> or subscribe for news about theme via <a href=\"http://dimsemenov.com/subscribe.html\">newsletter</a> or <a href=\"http://twitter.com/dimsemenov\">Twitter</a>."
 msgstr ""
 
-#: admin/admin-interface.php:106
-#: admin/admin-interface.php:123
+#: admin/admin-functions.php:44
+msgid "<h2>Congratulations, Touchfolio theme installed!</h2><p style=\\\"font-size: 15px; line-height: 20px \\\">Theme is currently in beta and may contain bugs, please <a href=\\\"http://support.dimsemenov.com/forums/159023-touchfolio\\\">vote for features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href=\\\"http://twitter.com/dimsemenov\\\">Twitter</a> or <a href=\\\"http://dimsemenov.com/subscribe.html\\\">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>"
+msgstr ""
+
+#: admin/admin-interface.php:97
+msgid " Theme Options"
+msgstr ""
+
+#: admin/admin-interface.php:98
+#: inc/gallery-manage.php:270
+msgid "<p style=\"font-size: 14px; line-height: 20px \">Please note, theme is currently in beta and may some issues, please <a href=\"http://support.dimsemenov.com/forums/159023-touchfolio\">vote for new features and report bugs</a>.<br/>To get notified about complete theme release, follow me on <a href=\"http://twitter.com/dimsemenov\">Twitter</a> or <a href=\"http://dimsemenov.com/subscribe.html\">join my email newsletter</a> (unsubscribe at any time, MailChimp).</p>"
+msgstr ""
+
+#: admin/admin-interface.php:108
+#: admin/admin-interface.php:125
 msgid "Save All Changes"
 msgstr ""
 
-#: admin/admin-interface.php:124
+#: admin/admin-interface.php:126
 msgid "Reset All Options"
 msgstr ""
 
-#: admin/admin-interface.php:127
-msgid "Theme designed and developed by <a href=\"http://dimsemenov.com/\">Dmitry Semenov</a>. Follow me on <a href=\"http://twitter.com/dimsemenov\">Twitter</a> or <a href=\"http://dimsemenov.com/subscribe.html\">join my newsletter</a> to get notified about theme updates and news."
-msgstr ""
-
-#: admin/admin-interface.php:593
+#: admin/admin-interface.php:594
 msgid "Click OK to backup your current saved options."
 msgstr ""
 
-#: admin/admin-interface.php:640
+#: admin/admin-interface.php:641
 msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
 msgstr ""
 
-#: admin/admin-interface.php:729
+#: admin/admin-interface.php:730
 msgid "Click OK to reset. All settings will be lost!"
 msgstr ""
 
-#: admin/admin-interface.php:1289
+#: admin/admin-interface.php:1290
 msgid "Last Backup : "
 msgstr ""
 
-#: admin/admin-interface.php:1346
+#: admin/admin-interface.php:1347
 msgid "Upload"
 msgstr ""
 
@@ -308,7 +329,7 @@ msgid "Options"
 msgstr ""
 
 #: admin/medialibrary-uploader.php:210
-#: admin/theme-options.php:157
+#: admin/theme-options.php:131
 #: inc/gallery-manage.php:143
 msgid "Gallery"
 msgstr ""
@@ -317,122 +338,130 @@ msgstr ""
 msgid "Previously Uploaded"
 msgstr ""
 
-#: admin/theme-options.php:97
+#: admin/theme-options.php:72
 msgid "General Settings"
 msgstr ""
 
-#: admin/theme-options.php:100
+#: admin/theme-options.php:75
 msgid "Logo"
 msgstr ""
 
-#: admin/theme-options.php:101
+#: admin/theme-options.php:76
 msgid "Main logo image. Default size is 97px x 16px. If blank site title text will be used.<br/>Size and position on different screen sizes and pages may be configured in selected skin less css file."
 msgstr ""
 
-#: admin/theme-options.php:109
+#: admin/theme-options.php:84
 msgid "Tracking Code"
 msgstr ""
 
-#: admin/theme-options.php:110
+#: admin/theme-options.php:85
 msgid "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme."
 msgstr ""
 
-#: admin/theme-options.php:115
+#: admin/theme-options.php:90
 msgid "Favicon"
 msgstr ""
 
-#: admin/theme-options.php:116
+#: admin/theme-options.php:91
 msgid "16px x 16px ico/png/gif image that will represent your website's favicon."
 msgstr ""
 
-#: admin/theme-options.php:127
+#: admin/theme-options.php:102
 msgid "Footer Text"
 msgstr ""
 
-#: admin/theme-options.php:128
-msgid "Text in footer. Height of footer may be configured in selected skin less css file. Leaving 'Powered by Touchfolio' text is not required, but much appreciated."
+#: admin/theme-options.php:103
+msgid "Text in footer. Height of footer may be configured in selected skin less css file. Leaving 'Powered by Touchfolio' text is not required, but much appreciated and keeps project alive. "
 msgstr ""
 
-#: admin/theme-options.php:133
+#: admin/theme-options.php:108
 msgid "Google Fonts Code"
 msgstr ""
 
-#: admin/theme-options.php:134
+#: admin/theme-options.php:109
 msgid "Google webfont code (or any other), will be inserted in site header. Example: <code>&lt;link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic' rel='stylesheet' type='text/css'&gt;</code>. Get it <a href='http://www.google.com/webfonts'>here</a>. Theme font can be changed in selected skin less css file."
 msgstr ""
 
-#: admin/theme-options.php:139
+#: admin/theme-options.php:114
 msgid "Skin File"
 msgstr ""
 
-#: admin/theme-options.php:140
+#: admin/theme-options.php:115
 msgid "Theme skin less file."
 msgstr ""
 
-#: admin/theme-options.php:147
+#: admin/theme-options.php:121
 msgid "Facebook admin id"
 msgstr ""
 
-#: admin/theme-options.php:148
+#: admin/theme-options.php:122
 msgid "Facebook admin id. Leave empty if you don't need any tracking of sharing."
 msgstr ""
 
-#: admin/theme-options.php:161
+#: admin/theme-options.php:135
 msgid "Album categories in gallery page"
 msgstr ""
 
-#: admin/theme-options.php:162
+#: admin/theme-options.php:136
 msgid "Comma separated album categories to be displayed in galleries page template (usually home page). Leave empty to display all."
 msgstr ""
 
-#: admin/theme-options.php:168
+#: admin/theme-options.php:142
 msgid "Default Background Color"
 msgstr ""
 
-#: admin/theme-options.php:169
+#: admin/theme-options.php:143
 msgid "Select default album color, you can override it in album settings for specific album."
 msgstr ""
 
-#: admin/theme-options.php:174
+#: admin/theme-options.php:148
 msgid "Default Background Pattern"
 msgstr ""
 
-#: admin/theme-options.php:175
+#: admin/theme-options.php:149
 msgid "Enter full URL to default album pattern, you can override it in album settings for specific album. Or leave empty, if you need just color."
 msgstr ""
 
-#: admin/theme-options.php:180
+#: admin/theme-options.php:154
 msgid "Default Image Scale Mode"
 msgstr ""
 
-#: admin/theme-options.php:181
+#: admin/theme-options.php:155
 msgid "Select how images will resize. This is default value, you can override it in album settings."
 msgstr ""
 
-#: admin/theme-options.php:186
+#: admin/theme-options.php:160
 #: inc/gallery-manage.php:224
-#: inc/gallery-manage.php:319
+#: inc/gallery-manage.php:322
 msgid "Fit in area"
 msgstr ""
 
-#: admin/theme-options.php:187
+#: admin/theme-options.php:161
 #: inc/gallery-manage.php:223
-#: inc/gallery-manage.php:320
+#: inc/gallery-manage.php:323
 msgid "Fill the area"
 msgstr ""
 
-#: admin/theme-options.php:188
+#: admin/theme-options.php:162
 #: inc/gallery-manage.php:225
-#: inc/gallery-manage.php:321
+#: inc/gallery-manage.php:324
 msgid "Don't scale"
 msgstr ""
 
-#: admin/theme-options.php:191
+#: admin/theme-options.php:165
 msgid "Gallery Image Size"
 msgstr ""
 
-#: admin/theme-options.php:192
+#: admin/theme-options.php:166
 msgid "WordPress image size for gallery images. Can be large, medium, or any other image size type. You'll need to resave all existing galleries if you change this."
+msgstr ""
+
+#: admin/theme-options.php:171
+msgid "Auto-open project description"
+msgstr ""
+
+#: admin/theme-options.php:172
+msgid "Automatically open project description on first image of every album."
 msgstr ""
 
 #: inc/gallery-manage.php:144
@@ -477,7 +506,7 @@ msgid "Video URL (YouTube or Vimeo)"
 msgstr ""
 
 #: inc/gallery-manage.php:220
-#: inc/gallery-manage.php:316
+#: inc/gallery-manage.php:319
 msgid "Image scale mode"
 msgstr ""
 
@@ -489,28 +518,28 @@ msgstr ""
 msgid "Alt attribute"
 msgstr ""
 
-#: inc/gallery-manage.php:299
+#: inc/gallery-manage.php:302
 msgid "This album does not contain any images yet.<br/> Click button below to add some."
 msgstr ""
 
-#: inc/gallery-manage.php:305
+#: inc/gallery-manage.php:308
 msgid "Add Images"
 msgstr ""
 
-#: inc/gallery-manage.php:318
+#: inc/gallery-manage.php:321
 msgid "Default (from global gallery settings)"
 msgstr ""
 
-#: inc/gallery-manage.php:326
+#: inc/gallery-manage.php:329
 msgid "Album background color"
 msgstr ""
 
-#: inc/gallery-manage.php:330
-#: inc/gallery-manage.php:337
+#: inc/gallery-manage.php:333
+#: inc/gallery-manage.php:340
 msgid "Leave empty for default"
 msgstr ""
 
-#: inc/gallery-manage.php:333
+#: inc/gallery-manage.php:336
 msgid "Album background pattern URL (optional)"
 msgstr ""
 

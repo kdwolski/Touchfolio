@@ -207,8 +207,8 @@ function dsframework_scripts() {
 			wp_enqueue_script( 'jquery.two-dimensional-slider', DS_THEME_PATH . '/js/jquery.slider-pack.1.1.min.js' );
 
 			wp_localize_script( 'jquery.two-dimensional-slider', 'tdSliderVars', array(
-							'nextAlbum' => __('Next project', 'dsframework'),
-							'prevAlbum' => __('Prev project', 'dsframework'),
+							'nextAlbum' => __('Next set', 'dsframework'),
+							'prevAlbum' => __('Prev set', 'dsframework'),
 							'closeProjectInfo' => __('close info', 'dsframework'),
 							'holdAndDrag' => __('Click and drag in any direction to browse.', 'dsframework'),
 							'nextImage' => __('Next image', 'dsframework'),
