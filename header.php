@@ -48,6 +48,7 @@
 	<?php global $data; ?>
 	<header class="main-header">
 		<section class="top-logo-group">
+			
 			<h1 class="logo">
 				<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php 
@@ -60,7 +61,7 @@
 					?>
 				</a>
 			</h1>
-			<div class="site-description"><?php bloginfo( 'description' ); ?></div>
+			<div class="site-description"><i class="icon-camera"></i> <?php bloginfo( 'description' ); ?></div>
 		</section>
 		<div class="menus-container">
 			<span class="menu-sep">&mdash;</span>

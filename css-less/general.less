@@ -22,7 +22,24 @@
 @import "css-less/typography.less"; // headings, links, lists, blockquote's , form, inputs ...
 @import "css-less/two-dim-slider.less"; // everything related to home page slider, except resizing
 @import "css-less/page-and-blog.less";
+@import "Font-Awesome/less/font-awesome.less"; // Font-Awesome!
 
+/////////////////////////////////////////////
+//
+// 0. Override Font-Awesome path:
+/////////////////////////////////////////////
+@FontAwesomePathNew: "Font-Awesome/font";
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('@{FontAwesomePathNew}/fontawesome-webfont.eot?v=3.0.1');
+  src: url('@{FontAwesomePathNew}/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('@{FontAwesomePathNew}/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('@{FontAwesomePathNew}/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+//  url('@{FontAwesomePathNew}/fontawesome-webfont.svg#fontawesomeregular?v=3.0.1') format('svg');
+
+//  src: url('@{FontAwesomePathNew}/FontAwesome.otf') format('opentype');
+
+}
 
 ////////////////////////////////////////////
 //
