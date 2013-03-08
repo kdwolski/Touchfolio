@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
 			} 
 
 			var headerHeight = _headerSideMenu.height();
-			mobileMenu = $('<a class="menu-button"><i class="menu-button-icon"></i>menu</a>');
+			mobileMenu = $('<a class="menu-button"><i class="icon-reorder icon-2x"></i></a>');
 			$('.top-logo-group').after(mobileMenu);
 			
 			setTimeout(function() {
