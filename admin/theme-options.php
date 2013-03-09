@@ -78,9 +78,6 @@ $of_options[] = array( "name" => __("Logo", 'dsframework'),
 					"std" => "",
 					"type" => "media");			
 
-
-
-
 $of_options[] = array( "name" => __("Tracking Code", 'dsframework'),
 					"desc" => __("Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme.", 'dsframework'),
 					"id" => "google_analytics",
@@ -92,12 +89,36 @@ $of_options[] = array( "name" => __("Favicon", 'dsframework'),
 					"id" => "custom_favicon",
 					"std" => "",
 					"type" => "upload"); 
-                                               
-       
 
+$of_options[] = array( "name" => __("Apple Touch Icon - iPhone", 'dsframework'),
+                    "desc" => __("57px x 57px png image that will represent your website's favicon on an iPhone 2G/3G/3GS/Touch.", 'dsframework'),
+                    "id" => "apple_touch_icon_iphone",
+                    "std" => "",
+                    "type" => "upload");
 
-					
+$of_options[] = array( "name" => __("Touch Icon - iPad", 'dsframework'),
+                    "desc" => __("72px x 72px png image that will represent your website's favicon on an iPad. ", 'dsframework'),
+                    "id" => "apple_touch_icon_ipad",
+                    "std" => "",
+                    "type" => "upload"); 
 
+$of_options[] = array( "name" => __("Touch Icon - iPhone Retina", 'dsframework'),
+                    "desc" => __("114px x 114px png image that will represent your website's favicon on an iPhone 4/4s/5.", 'dsframework'),
+                    "id" => "apple_touch_icon_iphone_retina",
+                    "std" => "",
+                    "type" => "upload"); 
+
+$of_options[] = array( "name" => __("Touch Icon - iPad Retina", 'dsframework'),
+                    "desc" => __("144px x 144px png image that will represent your website's favicon on an iPad with retina display.", 'dsframework'),
+                    "id" => "apple_touch_icon_ipad_retina",
+                    "std" => "",
+                    "type" => "upload"); 
+
+$of_options[] = array( "name" => __("Set Apple Touch Icons to Precomposed?", 'dsframework'),
+                    "desc" => __("Check the box if you don't want devices to add icon effects."),
+                    "id" => "apple_precomposed_check",
+                    "std" => "0",
+                    "type" => "checkbox");
 
 $of_options[] = array( "name" => __("Footer Text", 'dsframework'),
                     "desc" => __("Text in footer. Height of footer may be configured in selected skin less css file. Leaving 'Powered by Touchfolio' text is not required, but much appreciated and keeps project alive. ", 'dsframework'),
@@ -116,7 +137,6 @@ $of_options[] = array( "name" => __("Skin File", 'dsframework'),
 					"id" => "alt_stylesheet",
 					"std" => "style-touchfolio-default.less",
 					"type" => "text"); 
-
 
 $of_options[] = array( "name" => __("Facebook admin id", 'dsframework'),
                     "desc" => __("Facebook admin id. Leave empty if you don't need any tracking of sharing.", 'dsframework'),

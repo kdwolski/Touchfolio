@@ -16,6 +16,25 @@
 	<?php if(get_ds_option('custom_favicon')) { ?>
 	<link rel="shortcut icon" href="<?php echo get_ds_option('custom_favicon'); ?>" /> 
 	<?php } ?>
+
+	<?php
+		// Apple Touch Icons
+		$apple_rel = get_ds_option('apple_precomposed_check') ? 'apple-touch-icon-precomposed' : 'apple-touch-icon'; // rel= value
+	?>
+
+	<?php if(get_ds_option('apple_touch_icon_iphone')) { ?>
+	<link rel="<?php echo $apple_rel; ?>" href="<?php echo get_ds_option('apple_touch_icon_iphone'); ?>" />
+	<?php } ?>
+	<?php if(get_ds_option('apple_touch_icon_ipad')) { ?>
+	<link rel="<?php echo $apple_rel; ?>" sizes="72x72" href="<?php echo get_ds_option('apple_touch_icon_ipad'); ?>" />
+	<?php } ?>
+	<?php if(get_ds_option('apple_touch_icon_iphone_retina')) { ?>
+	<link rel="<?php echo $apple_rel; ?>" sizes="114x114" href="<?php echo get_ds_option('apple_touch_icon_iphone_retina'); ?>" />
+	<?php } ?>
+	<?php if(get_ds_option('apple_touch_icon_ipad_retina')) { ?>
+	<link rel="<?php echo $apple_rel; ?>" sizes="144x144" href="<?php echo get_ds_option('apple_touch_icon_ipad_retina'); ?>" />
+	<?php } ?>
+
 	<?php // Facebook stuff ?>
 	<?php if(get_ds_option('fb_admin_id')) { ?>
 	<meta property="fb:admins" content="<?php echo get_ds_option('fb_admin_id'); ?>" />
