@@ -77,8 +77,8 @@ define('ADMIN_PATH', STYLESHEETPATH . '/admin/');
 define('ADMIN_DIR', get_template_directory_uri() . '/admin/');
 define('LAYOUT_PATH', ADMIN_PATH . '/layouts/');
 
-$themedata = get_theme_data(STYLESHEETPATH . '/style.css');
-define('THEMENAME', $themedata['Name']);
+$themedata = wp_get_theme(STYLESHEETPATH . '/style.css');
+define('THEMENAME', $themedata->get['Name']);
 define('OPTIONS', 'of_options'); 
 define('BACKUPS','of_backups'); 
 
@@ -192,7 +192,7 @@ function dsframework_scripts() {
 		if(USE_LESS_CSS) {
 			$style_name = get_ds_option('alt_stylesheet');
 			if(!$style_name) {
-				$style_name = 'style-touchfolio-default';
+				$style_name = 'style-touchfolio-default.less';
 			}
 			wp_enqueue_style('style', get_bloginfo('template_directory').'/'. $style_name, array(), '', 'screen, projection');
 		} else {
@@ -288,7 +288,5 @@ function dsframework_add_admin_scripts( $hook ) {
     dsframework_admin_scripts_and_styles();
 }
 add_action( 'admin_enqueue_scripts', 'dsframework_add_admin_scripts', 10, 1 );
-require('update-notifier.php');
-
 
 ?>
